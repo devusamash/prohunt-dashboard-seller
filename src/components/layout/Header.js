@@ -5,7 +5,7 @@ import { LogOut } from "../../app/Actions/UserAction";
 import {
   Row,
   Col,
-   Breadcrumb,
+  Breadcrumb,
   Badge,
   Dropdown,
   Button,
@@ -131,19 +131,19 @@ const clockicon = [
 
 const data = [
   {
-    title: "New message from Sophie",
+    title: "New message from Aakib",
     description: <>{clockicon} 2 days ago</>,
 
     avatar: avtar,
   },
   {
-    title: "New album by Travis Scott",
+    title: "New development by Abdul Rehman",
     description: <>{clockicon} 2 days ago</>,
 
     avatar: <Avatar shape="square">{wifi}</Avatar>,
   },
   {
-    title: "Payment completed",
+    title: "Dashboard Completed",
     description: <>{clockicon} 2 days ago</>,
     avatar: <Avatar shape="square">{credit}</Avatar>,
   },
@@ -236,7 +236,7 @@ const setting = [
 function Header({
   placement,
   // name,
-   subName,
+  subName,
   onPress,
   handleSidenavColor,
   handleSidenavType,
@@ -322,7 +322,7 @@ function Header({
             <div layout="vertical">
               <div className="header-top">
                 <Title level={4}>
-                  Configurator
+                  Settings
                   <Text className="subtitle">See our dashboard options.</Text>
                 </Title>
               </div>
@@ -333,7 +333,7 @@ function Header({
                   <ButtonContainer>
                     <Button
                       type="primary"
-                      onClick={() => handleSidenavColor("#1890ff")}
+                      onClick={() => handleSidenavColor("#FBC004")}
                     >
                       1
                     </Button>

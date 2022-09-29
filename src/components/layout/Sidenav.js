@@ -1,7 +1,7 @@
 import React from "react";
 import { Menu, Button } from "antd";
 import { NavLink, useLocation } from "react-router-dom";
-import logo from "../../assets/images/logo.png";
+import proLogo from "../../assets/images/proLogo.png";
 
 function Sidenav({ color }) {
   const { pathname } = useLocation();
@@ -151,11 +151,10 @@ function Sidenav({ color }) {
   return (
     <>
       <div className="brand">
-        <img src={logo} alt="" />
-        <span>Pro Hunt</span>
+        <img src={proLogo} alt="" />
       </div>
       <hr />
-      <Menu theme="light" mode="inline">
+      <Menu theme="" mode="inline">
         <Menu.Item key="1">
           <NavLink to="/dashboard">
             <span
